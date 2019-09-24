@@ -1,0 +1,14 @@
+include cards
+
+div(class="row invisible")
+  each index in [1,2,3,4,5]
+    -var mdClass = index == 1 ? "col-md-12 mb-2" : "col-md-3";
+    -var cardClass = index == 1 ? "card" : "card next-weather-card";
+    -var rowClass = index == 1 ? "row" : "row d-flex flex-column";
+    div(class=mdClass)
+      div(class=cardClass)
+        div.card-body
+          div(class=rowClass)
+            +card(index)
+
+

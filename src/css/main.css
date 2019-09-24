@@ -1,0 +1,62 @@
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.w-10 {
+  width: 10% !important;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.animate {
+  opacity: 0;
+  animation: image-change 2s linear 0.15s 1 forwards;
+}
+
+#error,
+#loading {
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 5px #222;
+}
+
+@keyframes image-change {
+  0% {
+    opacity: 0;
+    /* transform: scale(1.2); */
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 1;
+    /* transform: scale(1); */
+  }
+}

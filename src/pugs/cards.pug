@@ -1,0 +1,22 @@
+mixin card(index)
+  - var cardTitle = index == 1 ? 'card-title' : 'card-title border-bottom';
+  - var dayWeather = index == 1 ? 'today-weather' : 'next-weather'
+  - var listGroupClass = index == 1 ? 'col' : 'col mt-1'
+  div.col
+    div(class=cardTitle)
+      if index == 1
+        h5#city-name
+      p.forecast-date
+    div(class=dayWeather)
+      img(src="https://www.metaweather.com/static/img/weather/png/lc.png" alt="" class="float-left w-25 weather-state")
+      div.float-left.ml-3
+        if index == 1
+          include tempRadioBtns
+        h3.the-temp
+
+  //- List groups here
+  div(class=listGroupClass)
+    ul.list-group
+      each val, index in {1: {text:'Max Temp: ', class: 'max-temp'}, 2: {text: 'Min Temp: ', class:'min-temp'}, 3: {text:'Relative Humidity: ', class:'humidity'}}
+        li.list-group-item= val.text
+          span(class=val.class)
