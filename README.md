@@ -1,13 +1,13 @@
 # javascript-weather-app
 
-![banner](media/forecast.gif)
+![banner](media/Weather-app.gif)
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![code linter: eslint](https://img.shields.io/badge/linter-eslint-blue)](https://github.com/eslint/eslint)
 
-> It&#39;s a online weather forcasting app
+> It&#39;s a online weather forcasting app.
 
 ## Table of Contents
 
@@ -22,25 +22,29 @@
 
 ## Background
 
+We used webpack, vanilla javascript, pug etc
+
 ## Install
 
 ```
+git clone <repo clone link>
 ```
 
 ## Usage
 
 ```
+yarn start
 ```
 
 ## Maintainers
 
-[@Dipto &amp; Ryan](https://github.com/Dipto &amp; Ryan)
+[@Dipto](https://github.com/dipto0321) and [@Ryan](https://github.com/rvvergara)
 
 ## Contributing
 
-PRs accepted.
+[Dipto](https://github.com/dipto0321) and [Ryan](https://github.com/rvvergara)
 
-Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+PRs accepted.
 
 ## License
 
