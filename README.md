@@ -8,7 +8,7 @@
 [![code linter: eslint](https://img.shields.io/badge/linter-eslint-blue)](https://github.com/eslint/eslint)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/737780bd-7575-49bc-9e7c-26d55f94f506/deploy-status)](https://app.netlify.com/sites/blissful-minsky-9f6458/deploys)
 
-> It&#39;s a online weather forcasting app.[Live demo](https://javascript-forcasting.netlify.com/)
+> It&#39;s a online weather forcasting app. [Live demo](https://javascript-forcasting.netlify.com/)
 
 ## Table of Contents
 
